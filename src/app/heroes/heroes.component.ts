@@ -3,6 +3,7 @@ import { Hero } from '../interface/hero'
 import { CommonModule, NgFor, NgIf, UpperCasePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HEROES } from '../mock-heroes'
+import { HeroDetailComponent } from '../hero-detail/hero-detail.component'
 
 
 @Component({
@@ -14,6 +15,7 @@ import { HEROES } from '../mock-heroes'
     NgIf,
     NgFor,
     UpperCasePipe,
+    HeroDetailComponent
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
